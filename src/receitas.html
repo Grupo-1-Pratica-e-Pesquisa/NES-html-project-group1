@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Adiciona a barra vertical -->
+    <nav class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
+      <div class="container mx-auto px-4 py-3
+      flex justify-between items-center">
+        <!-- Espaço do nome do site -->
+        <div class="text-lg font-bold">Receitas Nessianas</div>
+        <!-- Links de navegação na direita -->
+        <div class="space-x-4 ml-auto">
+          <a href="index.html" class="hover:bg-gray-700 hover:underline">Home</a>
+          <a href="receitas.html" class="hover:bg-gray-700 hover:underline">Receitas</a>
+          <a href="aboutus.html" class="hover:bg-gray-700 hover:underline">Sobre Nós</a>
+        </div>
+      </div>
+    </nav>
+    <div class="relative text-center mt-12">
+      <!-- Design da página -->
+      <h1 class="text-6xl font-bold text-black">
+        Receitas
+      </h1>
+    </div>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+      <!-- Receita 1 -->
+      <a href="pudim_leite_condensado.html" class="block bg-gradient-to-r from-blue-500 to-blue-700 text-white text-center
+      py-16 rounded-lg shadow-lg hover:scale-105 transform transition">
+        <img 
+          src="https://static.itdg.com.br/images/360-240/707f63812d06b57480d0177887226947/318825-original.jpg" 
+          alt="Imagem da receita 1" 
+          class="w-[335px] h-48 object-cover rounded-t-lg mx-auto">
+        <h2 class="text-xl font-semibold">Pudim de Leite Condensado</h2>
+        <p>Receita Simples de Pudim</p>
+      </a>
+
+      <!-- Receita 2 -->
+      <a href="maisena.html" class="block bg-gradient-to-r from-green-500 to-green-700 text-white text-center py-16 rounded-lg 
+      shadow-lg hover:scale-105 transform transition">
+        <img 
+          src="https://minhasreceitinhas.com.br/wp-content/uploads/2022/10/biscoito-de-maizena.jpg"
+          alt="Biscoito Maizena"
+          class="w-[335px] h-48 object-cover rounded-t-lg mx-auto">
+        <h2 class="text-xl font-semibold">Biscoito de maizena</h2>
+        <p>Receita Prática de Biscoito de Maizena para Fazer em Casa</p>
+      </a>
+
+      <!-- Receita 3 -->
+      <a href="mousse.html" class="block bg-gradient-to-r from-red-500 to-red-700 text-white text-center py-16 rounded-lg 
+      shadow-lg hover:scale-105 transform transition">
+        <img 
+          src="https://purapolpa.com.br/wp-content/uploads/2021/02/mousse-maracuja.jpg"
+          alt="Mousse de Maracujá" 
+          class="w-[335px] h-48 object-cover rounded-t-lg mx-auto">
+        <h2 class="text-xl font-semibold">Mousse de Maracujá</h2>
+        <p>Receita básica e prática de Mousse de Maracujá</p>
+      </a>
+    </div>
+    <div class="container mx-auto mt-16">
+      <!-- Tabela com informações sobre as receitas -->
+      <h2 class="text-2xl font-bold text-center mb-4">Especificações das Receitas</h2>
+      <table class="table-auto border-collapse border border-gray-400 w-full text-center text-lg">
+          <thead class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white">
+              <tr>
+                  <th class="border border-gray-400 px-4 py-2">Receita</th>
+                  <th class="border border-gray-400 px-4 py-2">Categoria</th>
+                  <th class="border border-gray-400 px-4 py-2">Sabor</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="bg-gray-100">
+                  <td class="border border-gray-400 px-4 py-2">Pudim de Leite Condensado</td>
+                  <td class="border border-gray-400 px-4 py-2">Doce</td>
+                  <td class="border border-gray-400 px-4 py-2">Caramelo</td>
+              </tr>
+              <tr class="bg-white">
+                  <td class="border border-gray-400 px-4 py-2">Biscoito de Maizena</td>
+                  <td class="border border-gray-400 px-4 py-2">Doce</td>
+                  <td class="border border-gray-400 px-4 py-2">Baunilha</td>
+              </tr>
+              <tr class="bg-gray-100">
+                  <td class="border border-gray-400 px-4 py-2">Mousse de Maracujá</td>
+                  <td class="border border-gray-400 px-4 py-2">Doce</td>
+                  <td class="border border-gray-400 px-4 py-2">Maracujá</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <footer class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white w-full">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+        <div class="text-sm">© 2024 Receitas Nessianas. Todos os direitos reservados.</div>
+        <div class="space-x-4">
+            <a href="https://www.instagram.com" target="_blank" class="hover:bg-gray-700">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="w-8 h-8">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="w-8 h-8">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
